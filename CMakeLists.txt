@@ -8,6 +8,7 @@ project(Uniwal VERSION 1.0 LANGUAGES CXX)
 
 set(LIB_SRC_FILES
     uniwal/orbit.cpp
+    uniwal/random.cpp
 )
 
 add_library(Uniwal STATIC ${LIB_SRC_FILES})
