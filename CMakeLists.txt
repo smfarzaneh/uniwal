@@ -26,6 +26,7 @@ include(CTest)
 enable_testing()
 set(TEST_SRC_FILES
     uniwal/random.test.cpp
+    uniwal/orbit.test.cpp
 )
 add_executable(UniwalTest ${TEST_SRC_FILES})
 target_include_directories(UniwalTest PUBLIC ${CMAKE_CURRENT_SOURCE_DIR}/uniwal)

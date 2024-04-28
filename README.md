@@ -18,7 +18,7 @@ The application is just a sample code to show how to use the library and how to 
 - **cmake**: used to configure make files and build (compile) the library and the application.
 - **gtest**: used for unit testing. It is automatically fetched (downloaded and installed) by cmake.
 
-### Clone the repository
+### 1. Clone the repository
 First download the current repository and change your directory to the root `uniwal` folder where this `README.md` file is located. 
 
 ```bash 
@@ -26,7 +26,7 @@ git clone https://github.com/smfarzaneh/uniwal.git
 cd uniwal
 ```
 
-### Compile
+### 2. Compile
 Then you would need to compile the source code into binary files and executables. 
 The following shell commands compile both `Uniwal` and `UniwalApp` and puts the binaries inside the `build/` subdirectory.
 
@@ -35,7 +35,7 @@ cmake -S . -B build/
 cmake --build build/
 ```
 
-### Run Tests
+### 3. Run Tests
 This is optional. 
 If you want to run the unit tests on the library to make sure everything works on your system as it's supposed to, run the following command
 
@@ -43,7 +43,7 @@ If you want to run the unit tests on the library to make sure everything works o
 ctest --test-dir build/ --output-on-failure
 ```
 
-### Run the Application
+### 4. Run the Application
 To see the library in action run the following command to execute the `UniwalApp` application.
 
 ```bash 
