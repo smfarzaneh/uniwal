@@ -15,8 +15,8 @@ Once installed, the library can be used in other applications or programs of you
 The application is just a sample code to show how to use the library and how to fit experimental data.
 
 ### Dependencies 
-- **cmake**: used to configure make files and build (compile) the library and the application.
-- **gtest**: used for unit testing. It is automatically fetched (downloaded and installed) by cmake.
+- **cmake**: used to organize the project and configure make files so that your compiler is successful in compiling the library and the application.
+- **gtest**: is from Google and is used for unit testing. It is automatically fetched (downloaded and installed) by cmake.
 
 ### 1. Clone the repository
 First download the current repository and change your directory to the root `uniwal` folder where this `README.md` file is located. 
